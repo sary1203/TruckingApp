@@ -16,6 +16,7 @@
 		446283A32786273F00D07FB8 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A22786273F00D07FB8 /* UserRepository.swift */; };
 		446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A42786286D00D07FB8 /* UserViewModel.swift */; };
 		4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BF132782D5CC00867EC4 /* UserModel.swift */; };
+		446B1CBB278800DB00922F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */; };
 		4471B3F32782A95200E5F887 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4471B3F22782A95200E5F887 /* CloudKit.framework */; };
 		4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471B3F42782ADCA00E5F887 /* LoginView.swift */; };
 		44846145277B5E3300E407A9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846144277B5E3300E407A9 /* Tests_iOS.swift */; };
@@ -56,6 +57,7 @@
 		446283A22786273F00D07FB8 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		446283A42786286D00D07FB8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		4463BF132782D5CC00867EC4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4471B3F02782A93500E5F887 /* TruckingApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TruckingApp (iOS).entitlements"; sourceTree = "<group>"; };
 		4471B3F22782A95200E5F887 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		4471B3F42782ADCA00E5F887 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 		44846128277B5E3100E407A9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */,
 				44CCB1E02785B9BD00D9D5E3 /* Extensions */,
 				44CCB1DF2785B9B200D9D5E3 /* Utilities */,
 				44CCB1DE2785B95900D9D5E3 /* Repositories */,
@@ -368,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4484615C277B5E3300E407A9 /* Assets.xcassets in Resources */,
+				446B1CBB278800DB00922F2D /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +577,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "TruckingApp (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -584,6 +589,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
@@ -606,6 +612,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "TruckingApp (iOS).entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -617,6 +624,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
