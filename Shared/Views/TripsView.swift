@@ -9,7 +9,8 @@ import SwiftUI
 
 struct TripsView: View {
     var body: some View {
-        Text("Yow").navigationTitle("Ongoing Trips")
+        Text("Yow")
+            .navigationTitle("Ongoing Trips")
     }
 }
 

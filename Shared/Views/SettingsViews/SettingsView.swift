@@ -15,6 +15,7 @@ struct SettingsView: View {
             thirdSection
             fourthSection
             fifthSection
+            sixthSection
         }
         .navigationBarTitle("Settings")
         .listStyle(InsetGroupedListStyle())
@@ -24,20 +25,56 @@ struct SettingsView: View {
     var firstSection: some View {
         Section {
             NavigationLink(destination: Text("Hello")) {
-                VStack(alignment: .leading) {
-                    Text("Randy Flores Jr")
-                        .font(.body)
-                        .padding(.top)
-                    Text("floresrandyjr@gmail.com")
-                        .font(.subheadline)
-                        .padding(.bottom)
+                HStack {
+                    ZStack {
+                        RoundedRectangle(
+                            cornerRadius: 5,
+                            style: .continuous
+                        )
+                            .fill(.blue)
+                            .frame(width: 30, height: 30)
+                        Image(systemName: "person.circle.fill")
+                            .resizable()
+                            .foregroundColor(.white)
+                            .frame(width: 20, height: 20)
+                    }
+                    VStack(alignment: .leading) {
+                        Text("Randy Flores Jr")
+                            .font(.body)
+                            .padding(.top)
+                        Text("floresrandyjr@gmail.com")
+                            .font(.subheadline)
+                            .padding(.bottom)
+                    }
                 }
-                
             }
         }
     }
     
     var secondSection: some View {
+        Section {
+            NavigationLink(destination: ClientsViews()) {
+                HStack() {
+                    ZStack {
+                        RoundedRectangle(
+                            cornerRadius: 5,
+                            style: .continuous
+                        )
+                            .fill(.green)
+                            .frame(width: 30, height: 30)
+                        Image(systemName: "person.crop.rectangle.stack")
+                            .resizable()
+                            .foregroundColor(.white)
+                            .frame(width: 20, height: 20)
+                    }
+                    Text("Clients")
+                        .font(.callout)
+                }
+            }
+        }
+    }
+    
+    var thirdSection: some View {
         Section {
             NavigationLink(destination: Text("Hello")) {
                 HStack() {
@@ -75,7 +112,7 @@ struct SettingsView: View {
                         .font(.callout)
                 }
             }
-            NavigationLink(destination: Text("Hello")) {
+            NavigationLink(destination: VehiclesView()) {
                 HStack() {
                     ZStack {
                         RoundedRectangle(
@@ -114,9 +151,9 @@ struct SettingsView: View {
         }
     }
     
-    var thirdSection: some View {
+    var fourthSection: some View {
         Section {
-            NavigationLink(destination: Text("Hello")) {
+            NavigationLink(destination: EmployeesView()) {
                 HStack() {
                     ZStack {
                         RoundedRectangle(
@@ -173,7 +210,7 @@ struct SettingsView: View {
         }
     }
     
-    var fourthSection: some View {
+    var fifthSection: some View {
         Section {
             NavigationLink(destination: Text("Hello")) {
                 HStack() {
@@ -214,7 +251,7 @@ struct SettingsView: View {
         }
     }
     
-    var fifthSection: some View {
+    var sixthSection: some View {
         Section {
             NavigationLink(destination: Text("Hello")) {
                 HStack() {

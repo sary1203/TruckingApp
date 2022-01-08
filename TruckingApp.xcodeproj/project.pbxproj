@@ -17,6 +17,9 @@
 		446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A42786286D00D07FB8 /* UserViewModel.swift */; };
 		4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BF132782D5CC00867EC4 /* UserModel.swift */; };
 		446B1CBB278800DB00922F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */; };
+		446B1CBE27891B1E00922F2D /* ClientsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBD27891B1E00922F2D /* ClientsViews.swift */; };
+		446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBF27891B3200922F2D /* EmployeesView.swift */; };
+		446B1CC227891B4200922F2D /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC127891B4200922F2D /* VehiclesView.swift */; };
 		4471B3F32782A95200E5F887 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4471B3F22782A95200E5F887 /* CloudKit.framework */; };
 		4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471B3F42782ADCA00E5F887 /* LoginView.swift */; };
 		44846145277B5E3300E407A9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846144277B5E3300E407A9 /* Tests_iOS.swift */; };
@@ -58,6 +61,9 @@
 		446283A42786286D00D07FB8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		4463BF132782D5CC00867EC4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 		446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		446B1CBD27891B1E00922F2D /* ClientsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViews.swift; sourceTree = "<group>"; };
+		446B1CBF27891B3200922F2D /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
+		446B1CC127891B4200922F2D /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
 		4471B3F02782A93500E5F887 /* TruckingApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TruckingApp (iOS).entitlements"; sourceTree = "<group>"; };
 		4471B3F22782A95200E5F887 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		4471B3F42782ADCA00E5F887 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -112,10 +118,10 @@
 		4401EFEA277BAA1700AA0372 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				446B1CBC27891AE600922F2D /* SettingsViews */,
 				4471B3F42782ADCA00E5F887 /* LoginView.swift */,
 				446185422786BF37000454DE /* TripsView.swift */,
 				445F49652787966C002519BE /* TabsView.swift */,
-				445F4967278796A3002519BE /* SettingsView.swift */,
 				445F4969278796B6002519BE /* ReceivablesView.swift */,
 				445F496B2787970B002519BE /* ReportsView.swift */,
 			);
@@ -136,6 +142,17 @@
 				446283A42786286D00D07FB8 /* UserViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		446B1CBC27891AE600922F2D /* SettingsViews */ = {
+			isa = PBXGroup;
+			children = (
+				445F4967278796A3002519BE /* SettingsView.swift */,
+				446B1CBD27891B1E00922F2D /* ClientsViews.swift */,
+				446B1CBF27891B3200922F2D /* EmployeesView.swift */,
+				446B1CC127891B4200922F2D /* VehiclesView.swift */,
+			);
+			path = SettingsViews;
 			sourceTree = "<group>";
 		};
 		4471B3F12782A95200E5F887 /* Frameworks */ = {
@@ -412,8 +429,11 @@
 				4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */,
 				445F4968278796A3002519BE /* SettingsView.swift in Sources */,
 				446185452786C306000454DE /* UIScreenExtension.swift in Sources */,
+				446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */,
+				446B1CBE27891B1E00922F2D /* ClientsViews.swift in Sources */,
 				446283A32786273F00D07FB8 /* UserRepository.swift in Sources */,
 				445F49662787966C002519BE /* TabsView.swift in Sources */,
+				446B1CC227891B4200922F2D /* VehiclesView.swift in Sources */,
 				445F496C2787970B002519BE /* ReportsView.swift in Sources */,
 				4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */,
 			);
