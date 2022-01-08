@@ -8,7 +8,7 @@
 import Foundation
 import AuthenticationServices
 
-struct UserModel : Codable{
+struct UserModel : Codable {
     var userId : String
     var firstName : String
     var lastName : String

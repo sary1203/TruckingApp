@@ -130,7 +130,7 @@ struct SettingsView: View {
                         .font(.callout)
                 }
             }
-            NavigationLink(destination: Text("Hello")) {
+            NavigationLink(destination: VehicleTypeView()) {
                 HStack() {
                     ZStack {
                         RoundedRectangle(
@@ -171,7 +171,7 @@ struct SettingsView: View {
                         .font(.callout)
                 }
             }
-            NavigationLink(destination: Text("Hello")) {
+            NavigationLink(destination: PositionsView()) {
                 HStack() {
                     ZStack {
                         RoundedRectangle(

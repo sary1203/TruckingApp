@@ -20,6 +20,12 @@
 		446B1CBE27891B1E00922F2D /* ClientsViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBD27891B1E00922F2D /* ClientsViews.swift */; };
 		446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBF27891B3200922F2D /* EmployeesView.swift */; };
 		446B1CC227891B4200922F2D /* VehiclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC127891B4200922F2D /* VehiclesView.swift */; };
+		446B1CC427897F2300922F2D /* VehicleTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC327897F2300922F2D /* VehicleTypeView.swift */; };
+		446B1CC627897F3400922F2D /* PositionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC527897F3400922F2D /* PositionsView.swift */; };
+		446B1CC82789827A00922F2D /* ClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC72789827A00922F2D /* ClientModel.swift */; };
+		446B1CCA278983EE00922F2D /* EmployeeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CC9278983EE00922F2D /* EmployeeModel.swift */; };
+		446B1CCC2789843900922F2D /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CCB2789843900922F2D /* PositionModel.swift */; };
+		446B1CCE2789847800922F2D /* VehicleTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CCD2789847800922F2D /* VehicleTypeModel.swift */; };
 		4471B3F32782A95200E5F887 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4471B3F22782A95200E5F887 /* CloudKit.framework */; };
 		4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471B3F42782ADCA00E5F887 /* LoginView.swift */; };
 		44846145277B5E3300E407A9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846144277B5E3300E407A9 /* Tests_iOS.swift */; };
@@ -64,6 +70,12 @@
 		446B1CBD27891B1E00922F2D /* ClientsViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsViews.swift; sourceTree = "<group>"; };
 		446B1CBF27891B3200922F2D /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
 		446B1CC127891B4200922F2D /* VehiclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesView.swift; sourceTree = "<group>"; };
+		446B1CC327897F2300922F2D /* VehicleTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTypeView.swift; sourceTree = "<group>"; };
+		446B1CC527897F3400922F2D /* PositionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionsView.swift; sourceTree = "<group>"; };
+		446B1CC72789827A00922F2D /* ClientModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientModel.swift; sourceTree = "<group>"; };
+		446B1CC9278983EE00922F2D /* EmployeeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeModel.swift; sourceTree = "<group>"; };
+		446B1CCB2789843900922F2D /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
+		446B1CCD2789847800922F2D /* VehicleTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTypeModel.swift; sourceTree = "<group>"; };
 		4471B3F02782A93500E5F887 /* TruckingApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TruckingApp (iOS).entitlements"; sourceTree = "<group>"; };
 		4471B3F22782A95200E5F887 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		4471B3F42782ADCA00E5F887 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
@@ -132,6 +144,10 @@
 			isa = PBXGroup;
 			children = (
 				4463BF132782D5CC00867EC4 /* UserModel.swift */,
+				446B1CC72789827A00922F2D /* ClientModel.swift */,
+				446B1CC9278983EE00922F2D /* EmployeeModel.swift */,
+				446B1CCB2789843900922F2D /* PositionModel.swift */,
+				446B1CCD2789847800922F2D /* VehicleTypeModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -151,6 +167,8 @@
 				446B1CBD27891B1E00922F2D /* ClientsViews.swift */,
 				446B1CBF27891B3200922F2D /* EmployeesView.swift */,
 				446B1CC127891B4200922F2D /* VehiclesView.swift */,
+				446B1CC327897F2300922F2D /* VehicleTypeView.swift */,
+				446B1CC527897F3400922F2D /* PositionsView.swift */,
 			);
 			path = SettingsViews;
 			sourceTree = "<group>";
@@ -423,18 +441,24 @@
 			files = (
 				445F496A278796B6002519BE /* ReceivablesView.swift in Sources */,
 				44846156277B5E3300E407A9 /* HaultechApp.swift in Sources */,
+				446B1CC627897F3400922F2D /* PositionsView.swift in Sources */,
 				446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */,
 				44CCB1E22785BA7000D9D5E3 /* UserApiService.swift in Sources */,
+				446B1CCA278983EE00922F2D /* EmployeeModel.swift in Sources */,
 				446185432786BF37000454DE /* TripsView.swift in Sources */,
 				4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */,
 				445F4968278796A3002519BE /* SettingsView.swift in Sources */,
 				446185452786C306000454DE /* UIScreenExtension.swift in Sources */,
 				446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */,
 				446B1CBE27891B1E00922F2D /* ClientsViews.swift in Sources */,
+				446B1CCC2789843900922F2D /* PositionModel.swift in Sources */,
 				446283A32786273F00D07FB8 /* UserRepository.swift in Sources */,
 				445F49662787966C002519BE /* TabsView.swift in Sources */,
 				446B1CC227891B4200922F2D /* VehiclesView.swift in Sources */,
+				446B1CCE2789847800922F2D /* VehicleTypeModel.swift in Sources */,
+				446B1CC427897F2300922F2D /* VehicleTypeView.swift in Sources */,
 				445F496C2787970B002519BE /* ReportsView.swift in Sources */,
+				446B1CC82789827A00922F2D /* ClientModel.swift in Sources */,
 				4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
