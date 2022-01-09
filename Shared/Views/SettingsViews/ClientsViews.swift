@@ -13,7 +13,7 @@ struct ClientsViews: View {
     var body: some View {
         List {
             ForEach(searchResults, id: \.self) { name in
-                NavigationLink(destination: Text(name)) {
+                NavigationLink(destination: ClientView()) {
                     Text(name)
                 }
             }
