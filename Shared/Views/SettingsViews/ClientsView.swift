@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ClientsViews: View {
+struct ClientsView: View {
     let names = ["Holly", "Josh", "Rhonda", "Ted"]
     @State private var searchText = ""
     var body: some View {
@@ -46,6 +46,6 @@ struct ClientsViews: View {
 
 struct ClientsViews_Previews: PreviewProvider {
     static var previews: some View {
-        ClientsViews()
+        ClientsView()
     }
 }

@@ -53,7 +53,25 @@ struct SettingsView: View {
     
     var secondSection: some View {
         Section {
-            NavigationLink(destination: ClientsViews()) {
+            NavigationLink(destination: ClientsView()) {
+                HStack() {
+                    ZStack {
+                        RoundedRectangle(
+                            cornerRadius: 5,
+                            style: .continuous
+                        )
+                            .fill(.orange)
+                            .frame(width: 30, height: 30)
+                        Image(systemName: "person.crop.rectangle.stack")
+                            .resizable()
+                            .foregroundColor(.white)
+                            .frame(width: 20, height: 20)
+                    }
+                    Text("Clients")
+                        .font(.callout)
+                }
+            }
+            NavigationLink(destination: RatesView()) {
                 HStack() {
                     ZStack {
                         RoundedRectangle(
@@ -62,12 +80,12 @@ struct SettingsView: View {
                         )
                             .fill(.green)
                             .frame(width: 30, height: 30)
-                        Image(systemName: "person.crop.rectangle.stack")
+                        Image(systemName: "dollarsign.circle.fill")
                             .resizable()
                             .foregroundColor(.white)
                             .frame(width: 20, height: 20)
                     }
-                    Text("Clients")
+                    Text("Rates")
                         .font(.callout)
                 }
             }
