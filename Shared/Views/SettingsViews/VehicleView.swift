@@ -13,14 +13,12 @@ struct VehicleView: View {
     var body: some View {
         List {
             nameSection
-            capacitySection
             noteSection
-            aquiredSection
             fuelHistorySection
             repairSection
         }
         .listStyle(InsetGroupedListStyle())
-        .navigationTitle("Client Info")
+        .navigationTitle("Vehicle Info")
         .toolbar {
             EditButton()
         }
@@ -29,27 +27,44 @@ struct VehicleView: View {
     var nameSection: some View {
         Section {
             HStack {
-                ZStack {
-                    RoundedRectangle(
-                        cornerRadius: 5,
-                        style: .continuous
-                    )
-                        .fill(.blue)
-                        .frame(width: 30, height: 30)
-                    Image(systemName: "person.circle.fill")
-                        .resizable()
-                        .foregroundColor(.white)
-                        .frame(width: 20, height: 20)
-                }
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("AWA - 1234")
-                        .font(.body)
-                        .padding(.top, 3)
-                    Text("Mitsubishi Elf")
-                        .font(.subheadline)
-                        .padding(.bottom, 3)
-                    
-                }
+                Text("Plate Number")
+                    .font(.callout)
+                Spacer()
+                Text("AWA - 12412")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Model")
+                    .font(.callout)
+                Spacer()
+                Text("Isuzu F-Series 2020")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Engine")
+                    .font(.callout)
+                Spacer()
+                Text("6HK1-TCS")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("GVW")
+                    .font(.callout)
+                Spacer()
+                Text("26,000 kg")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Date Acquired")
+                    .font(.callout)
+                Spacer()
+                Text("10/10/2022")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
         }
 
@@ -60,17 +75,8 @@ struct VehicleView: View {
             VStack(alignment: .leading, spacing: 3) {
                 NavigationLink(destination: Text("Hello")) {
                     Text("Fuel History")
+                        .font(.callout)
                 }
-            }
-        }
-    }
-    
-    var capacitySection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("capacity")
-                Text("10,000 Tons")
-                    .textSelection(.enabled)
             }
         }
     }
@@ -79,6 +85,7 @@ struct VehicleView: View {
         Section {
             VStack(alignment: .leading) {
                 Text("notes")
+                    .font(.callout)
                 TextEditor(text: $profileText)
                     .foregroundColor(.secondary)
                     .padding(.horizontal)
@@ -91,21 +98,11 @@ struct VehicleView: View {
             VStack(alignment: .leading, spacing: 0) {
                 NavigationLink(destination: Text("Hello")) {
                     Text("Repair History")
+                        .font(.callout)
                 }
             }
         }
     }
-    
-    var aquiredSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("date aquired")
-                Text("10/10/2010 - 5yrs in the company")
-                    .textSelection(.enabled)
-            }
-        }
-    }
-
 }
 
 struct VehicleView_Previews: PreviewProvider {

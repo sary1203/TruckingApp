@@ -13,16 +13,11 @@ struct EmployeeView: View {
     var body: some View {
         List {
             nameSection
-            contactNumberSection
-            licenseSection
-            birthdateSection
             noteSection
-            joinedSection
-            addressSection
             vehiclesSection
         }
         .listStyle(InsetGroupedListStyle())
-        .navigationTitle("Client Info")
+        .navigationTitle("Employee Info")
         .toolbar {
             EditButton()
         }
@@ -31,70 +26,56 @@ struct EmployeeView: View {
     var nameSection: some View {
         Section {
             HStack {
-                ZStack {
-                    RoundedRectangle(
-                        cornerRadius: 5,
-                        style: .continuous
-                    )
-                        .fill(.blue)
-                        .frame(width: 30, height: 30)
-                    Image(systemName: "person.circle.fill")
-                        .resizable()
-                        .foregroundColor(.white)
-                        .frame(width: 20, height: 20)
-                }
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("Randy Flores Jr")
-                        .font(.body)
-                        .padding(.top, 3)
-                    Text("Driver")
-                        .font(.subheadline)
-                    Text("RJ")
-                        .font(.subheadline)
-                        .padding(.bottom, 3)
-                    
-                }
+                Text("Name")
+                    .font(.callout)
+                Spacer()
+                Text("Coleen Malayao")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
-        }
-
-    }
-    
-    var contactNumberSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 3) {
-                Text("mobile")
+            HStack {
+                Text("Mobile Number")
+                    .font(.callout)
+                Spacer()
                 Text("09171592281")
-                    .textSelection(.enabled)
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
-        }
-    }
-    
-    var licenseSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("license number")
+            HStack {
+                Text("License Number")
+                    .font(.callout)
+                Spacer()
                 Text("DD3JFFEJ455MFF")
-                    .textSelection(.enabled)
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
-        }
-    }
-    
-    var joinedSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("Date Joined")
-                Text("09/29/1995 - 26yrs in the company")
-                    .textSelection(.enabled)
+            NavigationLink(destination: Text("09/10/2017")){
+                HStack {
+                    Text("Employment yrs")
+                        .font(.callout)
+                    Spacer()
+                    Text("5")
+                        .font(.callout)
+                        .foregroundColor(.secondary)
+                }
             }
-        }
-    }
-    
-    var birthdateSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("Date of Birth")
-                Text("09/29/1995 - 26yrs yrs old")
-                    .textSelection(.enabled)
+            NavigationLink(destination: Text("09/10/1995")){
+                HStack {
+                    Text("Age")
+                        .font(.callout)
+                    Spacer()
+                    Text("26yrs old")
+                        .font(.callout)
+                        .foregroundColor(.secondary)
+                }
+            }
+            HStack {
+                Text("Address")
+                    .font(.callout)
+                Spacer()
+                Text("Cor. Pag-asa village matina aplaya davao city")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
         }
     }
@@ -110,21 +91,10 @@ struct EmployeeView: View {
         }
     }
     
-    var addressSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 0) {
-                Text("address")
-                Text("Cord. Pag-asa village matina aplaya davao city")
-                    .padding(.bottom, 3)
-                    .textSelection(.enabled)
-            }
-        }
-    }
-    
     var vehiclesSection: some View {
         Section {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Vehicles")
+                Text("Vehicles can Operate")
                 Text("PICKUP , ELF, 4WD")
                     .padding(.bottom, 3)
                     .textSelection(.enabled)

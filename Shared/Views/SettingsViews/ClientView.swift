@@ -13,10 +13,7 @@ struct ClientView: View {
     var body: some View {
         List {
             nameSection
-            contactNumberSection
-            emailSection
             noteSection
-            addressSection
         }
         .listStyle(InsetGroupedListStyle())
         .navigationTitle("Client Info")
@@ -28,50 +25,55 @@ struct ClientView: View {
     var nameSection: some View {
         Section {
             HStack {
-                ZStack {
-                    RoundedRectangle(
-                        cornerRadius: 5,
-                        style: .continuous
-                    )
-                        .fill(.blue)
-                        .frame(width: 30, height: 30)
-                    Image(systemName: "person.circle.fill")
-                        .resizable()
-                        .foregroundColor(.white)
-                        .frame(width: 20, height: 20)
-                }
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("Randy Flores Jr")
-                        .font(.body)
-                        .padding(.top, 3)
-                    Text("Century tuna Corp.")
-                        .font(.subheadline)
-                        .padding(.bottom, 3)
-                    
-                }
+                Text("Name")
+                    .font(.callout)
+                Spacer()
+                Text("Randy Flores Jr")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Company")
+                    .font(.callout)
+                Spacer()
+                Text("Cavista Philippines")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Nickname")
+                    .font(.callout)
+                Spacer()
+                Text("RJ")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Mobile Number")
+                    .font(.callout)
+                Spacer()
+                Text("09171592281")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Email")
+                    .font(.callout)
+                Spacer()
+                Text("floresrandyjr@gmail.com")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
+            }
+            HStack {
+                Text("Address")
+                    .font(.callout)
+                Spacer()
+                Text("Cor. Pag-asa village matina aplaya davao city")
+                    .font(.callout)
+                    .foregroundColor(.secondary)
             }
         }
 
-    }
-    
-    var contactNumberSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 3) {
-                Text("mobile")
-                Text("09171592281")
-                    .textSelection(.enabled)
-            }
-        }
-    }
-    
-    var emailSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 5) {
-                Text("email")
-                Text("floresrandyjr@gmail.com")
-                    .textSelection(.enabled)
-            }
-        }
     }
     
     var noteSection: some View {
@@ -81,17 +83,6 @@ struct ClientView: View {
                 TextEditor(text: $profileText)
                     .foregroundColor(.secondary)
                     .padding(.horizontal)
-            }
-        }
-    }
-    
-    var addressSection: some View {
-        Section {
-            VStack(alignment: .leading, spacing: 0) {
-                Text("address")
-                Text("Cord. Pag-asa village matina aplaya davao city")
-                    .padding(.bottom, 3)
-                    .textSelection(.enabled)
             }
         }
     }
