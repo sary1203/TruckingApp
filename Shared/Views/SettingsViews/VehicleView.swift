@@ -13,11 +13,11 @@ struct VehicleView: View {
     var body: some View {
         List {
             nameSection
-            fuelHistorySection
             capacitySection
             noteSection
-            repairSection
             aquiredSection
+            fuelHistorySection
+            repairSection
         }
         .listStyle(InsetGroupedListStyle())
         .navigationTitle("Client Info")
@@ -58,8 +58,9 @@ struct VehicleView: View {
     var fuelHistorySection: some View {
         Section {
             VStack(alignment: .leading, spacing: 3) {
-                Text("Fuel History")
-                    .padding()
+                NavigationLink(destination: Text("Hello")) {
+                    Text("Fuel History")
+                }
             }
         }
     }
@@ -88,8 +89,9 @@ struct VehicleView: View {
     var repairSection: some View {
         Section {
             VStack(alignment: .leading, spacing: 0) {
-                Text("Rerair History")
-                    .padding()
+                NavigationLink(destination: Text("Hello")) {
+                    Text("Repair History")
+                }
             }
         }
     }
@@ -97,7 +99,7 @@ struct VehicleView: View {
     var aquiredSection: some View {
         Section {
             VStack(alignment: .leading, spacing: 5) {
-                Text("dateAquired")
+                Text("date aquired")
                 Text("10/10/2010 - 5yrs in the company")
                     .textSelection(.enabled)
             }
