@@ -13,6 +13,7 @@
 		445F496C2787970B002519BE /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F496B2787970B002519BE /* ReportsView.swift */; };
 		446185432786BF37000454DE /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446185422786BF37000454DE /* TripsView.swift */; };
 		446185452786C306000454DE /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446185442786C306000454DE /* UIScreenExtension.swift */; };
+		44618C4C278C5C1E00305060 /* Philippines.json in Sources */ = {isa = PBXBuildFile; fileRef = 44618C4B278C5C1E00305060 /* Philippines.json */; };
 		446283A32786273F00D07FB8 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A22786273F00D07FB8 /* UserRepository.swift */; };
 		446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A42786286D00D07FB8 /* UserViewModel.swift */; };
 		4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BF132782D5CC00867EC4 /* UserModel.swift */; };
@@ -40,6 +41,8 @@
 		4484615C277B5E3300E407A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4484612E277B5E3300E407A9 /* Assets.xcassets */; };
 		4484615D277B5E3300E407A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4484612E277B5E3300E407A9 /* Assets.xcassets */; };
 		44CCB1E22785BA7000D9D5E3 /* UserApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CCB1E12785BA7000D9D5E3 /* UserApiService.swift */; };
+		6F5F8051BA4302081B4A346C /* Pods_TruckingApp__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5931EAF84A4F9E097562F00 /* Pods_TruckingApp__iOS_.framework */; };
+		D57F3AEB262E3A238A3158B1 /* Pods_TruckingApp__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1FE81D6E94BC685DD479BD5 /* Pods_TruckingApp__macOS_.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,12 +63,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		36059F4AEAF4D2EC1A9A9156 /* Pods-TruckingApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckingApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
 		445F49652787966C002519BE /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		445F4967278796A3002519BE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		445F4969278796B6002519BE /* ReceivablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivablesView.swift; sourceTree = "<group>"; };
 		445F496B2787970B002519BE /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
 		446185422786BF37000454DE /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
 		446185442786C306000454DE /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
+		44618C4B278C5C1E00305060 /* Philippines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Philippines.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		446283A22786273F00D07FB8 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		446283A42786286D00D07FB8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		4463BF132782D5CC00867EC4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
@@ -98,6 +103,11 @@
 		44846152277B5E3300E407A9 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
 		4494469D2782CD7800DD4792 /* TruckingApp--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "TruckingApp--iOS--Info.plist"; sourceTree = "<group>"; };
 		44CCB1E12785BA7000D9D5E3 /* UserApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserApiService.swift; sourceTree = "<group>"; };
+		702A42DA72BFDEE47CA5A5A1 /* Pods-TruckingApp (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckingApp (macOS).release.xcconfig"; path = "Target Support Files/Pods-TruckingApp (macOS)/Pods-TruckingApp (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		B2A8FDDD67E5C72D8291AA40 /* Pods-TruckingApp (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckingApp (iOS).release.xcconfig"; path = "Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		B5931EAF84A4F9E097562F00 /* Pods_TruckingApp__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckingApp__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1FE81D6E94BC685DD479BD5 /* Pods_TruckingApp__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TruckingApp__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE8B03FE48C310BB0F97124D /* Pods-TruckingApp (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckingApp (macOS).debug.xcconfig"; path = "Target Support Files/Pods-TruckingApp (macOS)/Pods-TruckingApp (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4471B3F32782A95200E5F887 /* CloudKit.framework in Frameworks */,
+				6F5F8051BA4302081B4A346C /* Pods_TruckingApp__iOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -113,6 +124,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D57F3AEB262E3A238A3158B1 /* Pods_TruckingApp__macOS_.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +198,8 @@
 			isa = PBXGroup;
 			children = (
 				4471B3F22782A95200E5F887 /* CloudKit.framework */,
+				B5931EAF84A4F9E097562F00 /* Pods_TruckingApp__iOS_.framework */,
+				C1FE81D6E94BC685DD479BD5 /* Pods_TruckingApp__macOS_.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -201,6 +215,7 @@
 				4484614F277B5E3300E407A9 /* Tests macOS */,
 				44846134277B5E3300E407A9 /* Products */,
 				4471B3F12782A95200E5F887 /* Frameworks */,
+				57F51353ECFC87976296B5EA /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -277,6 +292,7 @@
 		44CCB1DF2785B9B200D9D5E3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				44618C4B278C5C1E00305060 /* Philippines.json */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -289,6 +305,18 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		57F51353ECFC87976296B5EA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				36059F4AEAF4D2EC1A9A9156 /* Pods-TruckingApp (iOS).debug.xcconfig */,
+				B2A8FDDD67E5C72D8291AA40 /* Pods-TruckingApp (iOS).release.xcconfig */,
+				FE8B03FE48C310BB0F97124D /* Pods-TruckingApp (macOS).debug.xcconfig */,
+				702A42DA72BFDEE47CA5A5A1 /* Pods-TruckingApp (macOS).release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -296,9 +324,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44846160277B5E3300E407A9 /* Build configuration list for PBXNativeTarget "TruckingApp (iOS)" */;
 			buildPhases = (
+				8750E924D46DE867E55AB486 /* [CP] Check Pods Manifest.lock */,
 				4484612F277B5E3300E407A9 /* Sources */,
 				44846130277B5E3300E407A9 /* Frameworks */,
 				44846131277B5E3300E407A9 /* Resources */,
+				19B2B5C7E7159F54927D35CE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,6 +343,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44846163277B5E3300E407A9 /* Build configuration list for PBXNativeTarget "TruckingApp (macOS)" */;
 			buildPhases = (
+				745F7B01553E5FA669822F97 /* [CP] Check Pods Manifest.lock */,
 				44846135277B5E3300E407A9 /* Sources */,
 				44846136277B5E3300E407A9 /* Frameworks */,
 				44846137277B5E3300E407A9 /* Resources */,
@@ -443,6 +474,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		19B2B5C7E7159F54927D35CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		745F7B01553E5FA669822F97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckingApp (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8750E924D46DE867E55AB486 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TruckingApp (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4484612F277B5E3300E407A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -459,6 +554,7 @@
 				4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */,
 				445F4968278796A3002519BE /* SettingsView.swift in Sources */,
 				446185452786C306000454DE /* UIScreenExtension.swift in Sources */,
+				44618C4C278C5C1E00305060 /* Philippines.json in Sources */,
 				446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */,
 				446B1CBE27891B1E00922F2D /* ClientsViews.swift in Sources */,
 				446B1CCC2789843900922F2D /* PositionModel.swift in Sources */,
@@ -630,6 +726,7 @@
 		};
 		44846161277B5E3300E407A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36059F4AEAF4D2EC1A9A9156 /* Pods-TruckingApp (iOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -665,6 +762,7 @@
 		};
 		44846162277B5E3300E407A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2A8FDDD67E5C72D8291AA40 /* Pods-TruckingApp (iOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -701,6 +799,7 @@
 		};
 		44846164277B5E3300E407A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE8B03FE48C310BB0F97124D /* Pods-TruckingApp (macOS).debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -729,6 +828,7 @@
 		};
 		44846165277B5E3300E407A9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702A42DA72BFDEE47CA5A5A1 /* Pods-TruckingApp (macOS).release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

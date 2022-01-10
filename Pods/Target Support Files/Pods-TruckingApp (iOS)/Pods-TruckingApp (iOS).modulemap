@@ -1,0 +1,6 @@
+framework module Pods_TruckingApp__iOS_ {
+  umbrella header "Pods-TruckingApp (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
