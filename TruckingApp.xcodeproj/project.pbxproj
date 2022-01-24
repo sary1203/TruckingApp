@@ -7,17 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44329781279D163500E284F3 /* Municipality+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432977B279D163500E284F3 /* Municipality+CoreDataClass.swift */; };
+		44329782279D163500E284F3 /* Municipality+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432977C279D163500E284F3 /* Municipality+CoreDataProperties.swift */; };
+		44329783279D163500E284F3 /* VehicleTypes+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432977D279D163500E284F3 /* VehicleTypes+CoreDataClass.swift */; };
+		44329784279D163500E284F3 /* VehicleTypes+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4432977E279D163500E284F3 /* VehicleTypes+CoreDataProperties.swift */; };
+		44329789279D1A1300E284F3 /* RatePerCity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329787279D1A1300E284F3 /* RatePerCity+CoreDataClass.swift */; };
+		4432978A279D1A1300E284F3 /* RatePerCity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44329788279D1A1300E284F3 /* RatePerCity+CoreDataProperties.swift */; };
 		445F49662787966C002519BE /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F49652787966C002519BE /* TabsView.swift */; };
 		445F4968278796A3002519BE /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F4967278796A3002519BE /* SettingsView.swift */; };
 		445F496A278796B6002519BE /* ReceivablesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F4969278796B6002519BE /* ReceivablesView.swift */; };
 		445F496C2787970B002519BE /* ReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F496B2787970B002519BE /* ReportsView.swift */; };
+		446045E427918B9D0071D314 /* NumberFormatterExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446045E327918B9D0071D314 /* NumberFormatterExtension.swift */; };
+		44604892278DD28400876BB5 /* LocationsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44604891278DD28400876BB5 /* LocationsService.swift */; };
+		4460A6CF278DFBF40015CCC9 /* CitiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460A6CE278DFBF40015CCC9 /* CitiesView.swift */; };
+		4460A6D1278DFCAB0015CCC9 /* MultipleSelectionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460A6D0278DFCAB0015CCC9 /* MultipleSelectionRow.swift */; };
+		4460A6D3278E00170015CCC9 /* SelectCoverageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460A6D2278E00170015CCC9 /* SelectCoverageViewModel.swift */; };
+		4460A6D5278E05D80015CCC9 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4460A6D4278E05D80015CCC9 /* LoadingView.swift */; };
 		446185432786BF37000454DE /* TripsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446185422786BF37000454DE /* TripsView.swift */; };
 		446185452786C306000454DE /* UIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446185442786C306000454DE /* UIScreenExtension.swift */; };
-		44618C4C278C5C1E00305060 /* Philippines.json in Sources */ = {isa = PBXBuildFile; fileRef = 44618C4B278C5C1E00305060 /* Philippines.json */; };
 		44618C4E278C6B8800305060 /* RatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44618C4D278C6B8800305060 /* RatesView.swift */; };
+		44618C50278D40CE00305060 /* SelectCoverageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44618C4F278D40CE00305060 /* SelectCoverageView.swift */; };
+		4461C69A278ECAAB0030274A /* CitiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4461C699278ECAAB0030274A /* CitiesViewModel.swift */; };
+		44623DE9278FE3B70081770F /* RatesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44623DE8278FE3B70081770F /* RatesViewModel.swift */; };
+		44623DEB278FF7ED0081770F /* ProvinceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44623DEA278FF7ED0081770F /* ProvinceModel.swift */; };
+		44623DF9279030020081770F /* TextAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44623DF8279030020081770F /* TextAlert.swift */; };
+		44623E0327905FAE0081770F /* SetLocationRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44623E0227905FAE0081770F /* SetLocationRateView.swift */; };
+		44623E052790633A0081770F /* SetLocationRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44623E042790633A0081770F /* SetLocationRateViewModel.swift */; };
 		446283A32786273F00D07FB8 /* UserRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A22786273F00D07FB8 /* UserRepository.swift */; };
 		446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446283A42786286D00D07FB8 /* UserViewModel.swift */; };
 		4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4463BF132782D5CC00867EC4 /* UserModel.swift */; };
+		4464430E278D637400C8EC24 /* philippines_municipalities.json in Resources */ = {isa = PBXBuildFile; fileRef = 4464430D278D637400C8EC24 /* philippines_municipalities.json */; };
+		4464430F278D637400C8EC24 /* philippines_municipalities.json in Resources */ = {isa = PBXBuildFile; fileRef = 4464430D278D637400C8EC24 /* philippines_municipalities.json */; };
+		44644312278D6BC800C8EC24 /* haultech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44644310278D6BC800C8EC24 /* haultech.xcdatamodeld */; };
+		44644313278D6BC800C8EC24 /* haultech.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44644310278D6BC800C8EC24 /* haultech.xcdatamodeld */; };
+		44644315278D795600C8EC24 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44644314278D795600C8EC24 /* PersistenceController.swift */; };
+		44644316278D795600C8EC24 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44644314278D795600C8EC24 /* PersistenceController.swift */; };
 		446B1CBB278800DB00922F2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */; };
 		446B1CBE27891B1E00922F2D /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBD27891B1E00922F2D /* ClientsView.swift */; };
 		446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CBF27891B3200922F2D /* EmployeesView.swift */; };
@@ -29,10 +53,17 @@
 		446B1CCC2789843900922F2D /* PositionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CCB2789843900922F2D /* PositionModel.swift */; };
 		446B1CCE2789847800922F2D /* VehicleTypeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CCD2789847800922F2D /* VehicleTypeModel.swift */; };
 		446B1CD02789892200922F2D /* ClientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446B1CCF2789892200922F2D /* ClientView.swift */; };
+		446D23B62793059F007EB43C /* VehiclesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D23B52793059F007EB43C /* VehiclesService.swift */; };
+		446D23B827930CB1007EB43C /* VehicleTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D23B727930CB1007EB43C /* VehicleTypesViewModel.swift */; };
+		446D23BA27930DA7007EB43C /* ModifyVehicleTypesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D23B927930DA7007EB43C /* ModifyVehicleTypesViewModel.swift */; };
+		446D23BD27930FC1007EB43C /* TypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D23BC27930FC1007EB43C /* TypeView.swift */; };
+		446D23BF27931AEE007EB43C /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446D23BE27931AEE007EB43C /* StringExtension.swift */; };
 		446EE83C278A7A48002E359A /* EmployeeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EE83B278A7A48002E359A /* EmployeeView.swift */; };
 		446EE83E278A7BA2002E359A /* VehicleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 446EE83D278A7BA2002E359A /* VehicleView.swift */; };
 		4471B3F32782A95200E5F887 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4471B3F22782A95200E5F887 /* CloudKit.framework */; };
 		4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4471B3F42782ADCA00E5F887 /* LoginView.swift */; };
+		4472F7CF2795B1B100B16650 /* SetVehicleRateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472F7CE2795B1B100B16650 /* SetVehicleRateView.swift */; };
+		4472F7D12795B58B00B16650 /* VehicleRateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4472F7D02795B58B00B16650 /* VehicleRateViewModel.swift */; };
 		44846145277B5E3300E407A9 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846144277B5E3300E407A9 /* Tests_iOS.swift */; };
 		44846147277B5E3300E407A9 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846146277B5E3300E407A9 /* Tests_iOSLaunchTests.swift */; };
 		44846151277B5E3300E407A9 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44846150277B5E3300E407A9 /* Tests_macOS.swift */; };
@@ -65,17 +96,38 @@
 
 /* Begin PBXFileReference section */
 		36059F4AEAF4D2EC1A9A9156 /* Pods-TruckingApp (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TruckingApp (iOS).debug.xcconfig"; path = "Target Support Files/Pods-TruckingApp (iOS)/Pods-TruckingApp (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		4432977B279D163500E284F3 /* Municipality+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Municipality+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4432977C279D163500E284F3 /* Municipality+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Municipality+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4432977D279D163500E284F3 /* VehicleTypes+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VehicleTypes+CoreDataClass.swift"; sourceTree = "<group>"; };
+		4432977E279D163500E284F3 /* VehicleTypes+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VehicleTypes+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		44329787279D1A1300E284F3 /* RatePerCity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatePerCity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		44329788279D1A1300E284F3 /* RatePerCity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RatePerCity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		445F49652787966C002519BE /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
 		445F4967278796A3002519BE /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		445F4969278796B6002519BE /* ReceivablesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceivablesView.swift; sourceTree = "<group>"; };
 		445F496B2787970B002519BE /* ReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsView.swift; sourceTree = "<group>"; };
+		446045E327918B9D0071D314 /* NumberFormatterExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberFormatterExtension.swift; sourceTree = "<group>"; };
+		44604891278DD28400876BB5 /* LocationsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsService.swift; sourceTree = "<group>"; };
+		4460A6CE278DFBF40015CCC9 /* CitiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesView.swift; sourceTree = "<group>"; };
+		4460A6D0278DFCAB0015CCC9 /* MultipleSelectionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleSelectionRow.swift; sourceTree = "<group>"; };
+		4460A6D2278E00170015CCC9 /* SelectCoverageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCoverageViewModel.swift; sourceTree = "<group>"; };
+		4460A6D4278E05D80015CCC9 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		446185422786BF37000454DE /* TripsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsView.swift; sourceTree = "<group>"; };
 		446185442786C306000454DE /* UIScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScreenExtension.swift; sourceTree = "<group>"; };
-		44618C4B278C5C1E00305060 /* Philippines.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Philippines.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		44618C4D278C6B8800305060 /* RatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesView.swift; sourceTree = "<group>"; };
+		44618C4F278D40CE00305060 /* SelectCoverageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCoverageView.swift; sourceTree = "<group>"; };
+		4461C699278ECAAB0030274A /* CitiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesViewModel.swift; sourceTree = "<group>"; };
+		44623DE8278FE3B70081770F /* RatesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatesViewModel.swift; sourceTree = "<group>"; };
+		44623DEA278FF7ED0081770F /* ProvinceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvinceModel.swift; sourceTree = "<group>"; };
+		44623DF8279030020081770F /* TextAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAlert.swift; sourceTree = "<group>"; };
+		44623E0227905FAE0081770F /* SetLocationRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationRateView.swift; sourceTree = "<group>"; };
+		44623E042790633A0081770F /* SetLocationRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetLocationRateViewModel.swift; sourceTree = "<group>"; };
 		446283A22786273F00D07FB8 /* UserRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepository.swift; sourceTree = "<group>"; };
 		446283A42786286D00D07FB8 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		4463BF132782D5CC00867EC4 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		4464430D278D637400C8EC24 /* philippines_municipalities.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = philippines_municipalities.json; sourceTree = "<group>"; };
+		44644311278D6BC800C8EC24 /* haultech.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = haultech.xcdatamodel; sourceTree = "<group>"; };
+		44644314278D795600C8EC24 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
 		446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		446B1CBD27891B1E00922F2D /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
 		446B1CBF27891B3200922F2D /* EmployeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeesView.swift; sourceTree = "<group>"; };
@@ -87,11 +139,18 @@
 		446B1CCB2789843900922F2D /* PositionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionModel.swift; sourceTree = "<group>"; };
 		446B1CCD2789847800922F2D /* VehicleTypeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTypeModel.swift; sourceTree = "<group>"; };
 		446B1CCF2789892200922F2D /* ClientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientView.swift; sourceTree = "<group>"; };
+		446D23B52793059F007EB43C /* VehiclesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehiclesService.swift; sourceTree = "<group>"; };
+		446D23B727930CB1007EB43C /* VehicleTypesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleTypesViewModel.swift; sourceTree = "<group>"; };
+		446D23B927930DA7007EB43C /* ModifyVehicleTypesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyVehicleTypesViewModel.swift; sourceTree = "<group>"; };
+		446D23BC27930FC1007EB43C /* TypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeView.swift; sourceTree = "<group>"; };
+		446D23BE27931AEE007EB43C /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		446EE83B278A7A48002E359A /* EmployeeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeView.swift; sourceTree = "<group>"; };
 		446EE83D278A7BA2002E359A /* VehicleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleView.swift; sourceTree = "<group>"; };
 		4471B3F02782A93500E5F887 /* TruckingApp (iOS).entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TruckingApp (iOS).entitlements"; sourceTree = "<group>"; };
 		4471B3F22782A95200E5F887 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.2.sdk/System/Library/Frameworks/CloudKit.framework; sourceTree = DEVELOPER_DIR; };
 		4471B3F42782ADCA00E5F887 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		4472F7CE2795B1B100B16650 /* SetVehicleRateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetVehicleRateView.swift; sourceTree = "<group>"; };
+		4472F7D02795B58B00B16650 /* VehicleRateViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleRateViewModel.swift; sourceTree = "<group>"; };
 		4484612B277B5E3100E407A9 /* HaultechApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaultechApp.swift; sourceTree = "<group>"; };
 		4484612E277B5E3300E407A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44846133277B5E3300E407A9 /* TruckingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TruckingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +227,8 @@
 				446B1CC9278983EE00922F2D /* EmployeeModel.swift */,
 				446B1CCB2789843900922F2D /* PositionModel.swift */,
 				446B1CCD2789847800922F2D /* VehicleTypeModel.swift */,
+				44623DEA278FF7ED0081770F /* ProvinceModel.swift */,
+				44623DF8279030020081770F /* TextAlert.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -176,25 +237,67 @@
 			isa = PBXGroup;
 			children = (
 				446283A42786286D00D07FB8 /* UserViewModel.swift */,
+				4460A6D2278E00170015CCC9 /* SelectCoverageViewModel.swift */,
+				4461C699278ECAAB0030274A /* CitiesViewModel.swift */,
+				44623DE8278FE3B70081770F /* RatesViewModel.swift */,
+				44623E042790633A0081770F /* SetLocationRateViewModel.swift */,
+				446D23B727930CB1007EB43C /* VehicleTypesViewModel.swift */,
+				446D23B927930DA7007EB43C /* ModifyVehicleTypesViewModel.swift */,
+				4472F7D02795B58B00B16650 /* VehicleRateViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		4460A6CB278DFB3D0015CCC9 /* Rates */ = {
+			isa = PBXGroup;
+			children = (
+				44618C4D278C6B8800305060 /* RatesView.swift */,
+				44618C4F278D40CE00305060 /* SelectCoverageView.swift */,
+				4460A6CE278DFBF40015CCC9 /* CitiesView.swift */,
+				4460A6D0278DFCAB0015CCC9 /* MultipleSelectionRow.swift */,
+				44623E0227905FAE0081770F /* SetLocationRateView.swift */,
+				4472F7CE2795B1B100B16650 /* SetVehicleRateView.swift */,
+			);
+			path = Rates;
+			sourceTree = "<group>";
+		};
+		44644317278D807800C8EC24 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				44329787279D1A1300E284F3 /* RatePerCity+CoreDataClass.swift */,
+				44329788279D1A1300E284F3 /* RatePerCity+CoreDataProperties.swift */,
+				4432977B279D163500E284F3 /* Municipality+CoreDataClass.swift */,
+				4432977C279D163500E284F3 /* Municipality+CoreDataProperties.swift */,
+				4432977D279D163500E284F3 /* VehicleTypes+CoreDataClass.swift */,
+				4432977E279D163500E284F3 /* VehicleTypes+CoreDataProperties.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		446B1CBC27891AE600922F2D /* SettingsViews */ = {
 			isa = PBXGroup;
 			children = (
+				446D23BB27930F48007EB43C /* Vehicles */,
+				4460A6CB278DFB3D0015CCC9 /* Rates */,
 				445F4967278796A3002519BE /* SettingsView.swift */,
 				446B1CBD27891B1E00922F2D /* ClientsView.swift */,
 				446B1CBF27891B3200922F2D /* EmployeesView.swift */,
-				446B1CC127891B4200922F2D /* VehiclesView.swift */,
-				446B1CC327897F2300922F2D /* VehicleTypeView.swift */,
 				446B1CC527897F3400922F2D /* PositionsView.swift */,
 				446B1CCF2789892200922F2D /* ClientView.swift */,
 				446EE83B278A7A48002E359A /* EmployeeView.swift */,
-				446EE83D278A7BA2002E359A /* VehicleView.swift */,
-				44618C4D278C6B8800305060 /* RatesView.swift */,
 			);
 			path = SettingsViews;
+			sourceTree = "<group>";
+		};
+		446D23BB27930F48007EB43C /* Vehicles */ = {
+			isa = PBXGroup;
+			children = (
+				446EE83D278A7BA2002E359A /* VehicleView.swift */,
+				446B1CC327897F2300922F2D /* VehicleTypeView.swift */,
+				446B1CC127891B4200922F2D /* VehiclesView.swift */,
+				446D23BC27930FC1007EB43C /* TypeView.swift */,
+			);
+			path = Vehicles;
 			sourceTree = "<group>";
 		};
 		4471B3F12782A95200E5F887 /* Frameworks */ = {
@@ -225,6 +328,7 @@
 		44846128277B5E3100E407A9 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				4464430D278D637400C8EC24 /* philippines_municipalities.json */,
 				446B1CBA278800DB00922F2D /* LaunchScreen.storyboard */,
 				44CCB1E02785B9BD00D9D5E3 /* Extensions */,
 				44CCB1DF2785B9B200D9D5E3 /* Utilities */,
@@ -234,7 +338,9 @@
 				4401EFEB277BAA2600AA0372 /* Models */,
 				4401EFEA277BAA1700AA0372 /* Views */,
 				4484612B277B5E3100E407A9 /* HaultechApp.swift */,
+				44644314278D795600C8EC24 /* PersistenceController.swift */,
 				4484612E277B5E3300E407A9 /* Assets.xcassets */,
+				44644310278D6BC800C8EC24 /* haultech.xcdatamodeld */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -280,6 +386,8 @@
 			isa = PBXGroup;
 			children = (
 				44CCB1E12785BA7000D9D5E3 /* UserApiService.swift */,
+				44604891278DD28400876BB5 /* LocationsService.swift */,
+				446D23B52793059F007EB43C /* VehiclesService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -295,7 +403,7 @@
 		44CCB1DF2785B9B200D9D5E3 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
-				44618C4B278C5C1E00305060 /* Philippines.json */,
+				4460A6D4278E05D80015CCC9 /* LoadingView.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -303,7 +411,10 @@
 		44CCB1E02785B9BD00D9D5E3 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				44644317278D807800C8EC24 /* CoreData */,
 				446185442786C306000454DE /* UIScreenExtension.swift */,
+				446045E327918B9D0071D314 /* NumberFormatterExtension.swift */,
+				446D23BE27931AEE007EB43C /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -337,6 +448,8 @@
 			dependencies = (
 			);
 			name = "TruckingApp (iOS)";
+			packageProductDependencies = (
+			);
 			productName = "TruckingApp (iOS)";
 			productReference = 44846133277B5E3300E407A9 /* TruckingApp.app */;
 			productType = "com.apple.product-type.application";
@@ -430,6 +543,8 @@
 				Base,
 			);
 			mainGroup = 44846123277B5E3100E407A9;
+			packageReferences = (
+			);
 			productRefGroup = 44846134277B5E3300E407A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -449,6 +564,7 @@
 			files = (
 				4484615C277B5E3300E407A9 /* Assets.xcassets in Resources */,
 				446B1CBB278800DB00922F2D /* LaunchScreen.storyboard in Resources */,
+				4464430E278D637400C8EC24 /* philippines_municipalities.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +572,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4464430F278D637400C8EC24 /* philippines_municipalities.json in Resources */,
 				4484615D277B5E3300E407A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -545,31 +662,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44623E0327905FAE0081770F /* SetLocationRateView.swift in Sources */,
 				445F496A278796B6002519BE /* ReceivablesView.swift in Sources */,
 				44846156277B5E3300E407A9 /* HaultechApp.swift in Sources */,
 				446B1CC627897F3400922F2D /* PositionsView.swift in Sources */,
 				446283A52786286D00D07FB8 /* UserViewModel.swift in Sources */,
+				446D23BF27931AEE007EB43C /* StringExtension.swift in Sources */,
 				44CCB1E22785BA7000D9D5E3 /* UserApiService.swift in Sources */,
 				446B1CCA278983EE00922F2D /* EmployeeModel.swift in Sources */,
+				44623DE9278FE3B70081770F /* RatesViewModel.swift in Sources */,
+				44618C50278D40CE00305060 /* SelectCoverageView.swift in Sources */,
 				446185432786BF37000454DE /* TripsView.swift in Sources */,
+				44623DEB278FF7ED0081770F /* ProvinceModel.swift in Sources */,
 				446EE83E278A7BA2002E359A /* VehicleView.swift in Sources */,
 				4463BF142782D5CC00867EC4 /* UserModel.swift in Sources */,
+				44329781279D163500E284F3 /* Municipality+CoreDataClass.swift in Sources */,
 				445F4968278796A3002519BE /* SettingsView.swift in Sources */,
+				44604892278DD28400876BB5 /* LocationsService.swift in Sources */,
 				446185452786C306000454DE /* UIScreenExtension.swift in Sources */,
-				44618C4C278C5C1E00305060 /* Philippines.json in Sources */,
+				4472F7D12795B58B00B16650 /* VehicleRateViewModel.swift in Sources */,
+				44329782279D163500E284F3 /* Municipality+CoreDataProperties.swift in Sources */,
 				446B1CC027891B3200922F2D /* EmployeesView.swift in Sources */,
 				446B1CBE27891B1E00922F2D /* ClientsView.swift in Sources */,
+				44623E052790633A0081770F /* SetLocationRateViewModel.swift in Sources */,
+				446D23B827930CB1007EB43C /* VehicleTypesViewModel.swift in Sources */,
+				446D23BA27930DA7007EB43C /* ModifyVehicleTypesViewModel.swift in Sources */,
 				446B1CCC2789843900922F2D /* PositionModel.swift in Sources */,
+				44329789279D1A1300E284F3 /* RatePerCity+CoreDataClass.swift in Sources */,
+				4472F7CF2795B1B100B16650 /* SetVehicleRateView.swift in Sources */,
+				44644315278D795600C8EC24 /* PersistenceController.swift in Sources */,
+				446D23B62793059F007EB43C /* VehiclesService.swift in Sources */,
+				446045E427918B9D0071D314 /* NumberFormatterExtension.swift in Sources */,
 				446283A32786273F00D07FB8 /* UserRepository.swift in Sources */,
+				446D23BD27930FC1007EB43C /* TypeView.swift in Sources */,
+				4460A6D1278DFCAB0015CCC9 /* MultipleSelectionRow.swift in Sources */,
 				445F49662787966C002519BE /* TabsView.swift in Sources */,
 				446EE83C278A7A48002E359A /* EmployeeView.swift in Sources */,
+				44623DF9279030020081770F /* TextAlert.swift in Sources */,
+				4460A6D5278E05D80015CCC9 /* LoadingView.swift in Sources */,
+				44644312278D6BC800C8EC24 /* haultech.xcdatamodeld in Sources */,
 				446B1CD02789892200922F2D /* ClientView.swift in Sources */,
 				446B1CC227891B4200922F2D /* VehiclesView.swift in Sources */,
+				4461C69A278ECAAB0030274A /* CitiesViewModel.swift in Sources */,
+				4460A6CF278DFBF40015CCC9 /* CitiesView.swift in Sources */,
+				4460A6D3278E00170015CCC9 /* SelectCoverageViewModel.swift in Sources */,
 				44618C4E278C6B8800305060 /* RatesView.swift in Sources */,
 				446B1CCE2789847800922F2D /* VehicleTypeModel.swift in Sources */,
 				446B1CC427897F2300922F2D /* VehicleTypeView.swift in Sources */,
+				44329783279D163500E284F3 /* VehicleTypes+CoreDataClass.swift in Sources */,
 				445F496C2787970B002519BE /* ReportsView.swift in Sources */,
+				44329784279D163500E284F3 /* VehicleTypes+CoreDataProperties.swift in Sources */,
 				446B1CC82789827A00922F2D /* ClientModel.swift in Sources */,
+				4432978A279D1A1300E284F3 /* RatePerCity+CoreDataProperties.swift in Sources */,
 				4471B3F52782ADCA00E5F887 /* LoginView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,7 +722,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44644316278D795600C8EC24 /* PersistenceController.swift in Sources */,
 				44846157277B5E3300E407A9 /* HaultechApp.swift in Sources */,
+				44644313278D6BC800C8EC24 /* haultech.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -986,6 +1132,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		44644310278D6BC800C8EC24 /* haultech.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				44644311278D6BC800C8EC24 /* haultech.xcdatamodel */,
+			);
+			currentVersion = 44644311278D6BC800C8EC24 /* haultech.xcdatamodel */;
+			path = haultech.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 44846124277B5E3100E407A9 /* Project object */;
 }

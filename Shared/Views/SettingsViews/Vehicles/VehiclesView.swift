@@ -30,7 +30,9 @@ struct VehiclesView: View {
             Button(action: {
                 print("User icon pressed...")
             }) {
-                Image(systemName: "plus.circle").imageScale(.large)
+                Image(systemName: "plus.circle")
+                    .resizable()
+                    .frame(width: 24, height: 24)
             }
         )
     }

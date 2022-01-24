@@ -36,7 +36,7 @@ final class UserApiService: UserApiServiceProtocol {
             privateDatabase.save(record) { recordData, error in
                 
                 if let error = error {
-                    completion("")
+                    completion("\(error)")
                 } else {
                     completion(String(describing: record.recordID))
                 }

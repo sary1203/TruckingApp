@@ -22,7 +22,7 @@ final class UserViewModel: ObservableObject {
 
                 switch authResults.credential {
                     case let appleIDCredential as ASAuthorizationAppleIDCredential:
-                    if var user = UserModel(credentials: appleIDCredential) {
+                    if let user = UserModel(credentials: appleIDCredential) {
                         
                         // save User records to CloudKit
                         repository
