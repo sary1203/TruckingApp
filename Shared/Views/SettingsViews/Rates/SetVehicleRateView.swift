@@ -33,7 +33,6 @@ struct SetVehicleRateView: View {
                     Text(selectedVehicleType.vehicleType)
                         .font(.callout)
                     Spacer()
-                    /*let vehicleTypeRate : String = $selectedVehicleType.typeRate != 0 ? String($selectedVehicleType.rate) : "0"*/
                     TextField("Php \(selectedVehicleType.typeRate)", text: someNumberProxy)
                             .multilineTextAlignment(.trailing)
                             .keyboardType(.numberPad)

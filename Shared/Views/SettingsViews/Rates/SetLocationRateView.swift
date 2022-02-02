@@ -17,32 +17,25 @@ struct SetLocationRateView: View {
     var body: some View {
         ZStack {
             Section {
-                VStack(alignment: .leading, spacing: 0) {
-                    Text("\(selectedCity.wrappedName)")
-                        .font(.largeTitle)
-                        .minimumScaleFactor(0.01)
-                        .lineLimit(1)
-                        .padding(EdgeInsets(top: 0, leading: 10, bottom: 0, trailing: 10))
-                    
-                    List(viewModel.vehicleTypes, id:\.self) { vehicleType in
-                        NavigationLink(destination: SetVehicleRateView(selectedCity: selectedCity, selectedVehicleType: vehicleType)) {
-                            HStack {
-                                Text(vehicleType.vehicleType)
-                                    .font(.callout)
-                                Spacer()
-                                Text("Php \(vehicleType.typeRate)")
-                            }
+                List(viewModel.vehicleTypes, id:\.self) { vehicleType in
+                    NavigationLink(destination: SetVehicleRateView(selectedCity: selectedCity, selectedVehicleType: vehicleType)) {
+                        HStack {
+                            Text(vehicleType.vehicleType)
+                                .font(.callout)
+                            Spacer()
+                            Text("Php \(vehicleType.typeRate)")
                         }
                     }
-                    .onAppear(perform: loadVehicleTypes)
-                    .listStyle(InsetGroupedListStyle())
-                    .toolbar {
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            deleteButton
-                        }
-                        ToolbarItem(placement: .navigationBarTrailing) {
-                            doneButton
-                        }
+                }
+                .navigationBarTitle(selectedCity.wrappedName)
+                .onAppear(perform: loadVehicleTypes)
+                .listStyle(InsetGroupedListStyle())
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        deleteButton
+                    }
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        doneButton
                     }
                 }
             }
